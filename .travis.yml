@@ -1,6 +1,9 @@
 language: python
 python:
-  - "3.4"
-  - "3.5"
-
+- '3.4'
+- '3.5'
+//тест коммита в файле
 script: python -m unittest
+notifications:
+  slack:
+    secure: CFy/vhSXGZf6z8XQQu4JzQRUvUN+pMdG7HFTCUgvhUA4Z+WHeoVYVdv8lTOprXu4ChzyeIcA2brcYZ8Te/rDUlfcnmWBSFcC8TsL6cQASHmS+q+6HwqkcCHvAr8rnjcohIzXLT1PDuRF52sBKpPlUpOGiqc/IYMEGmZEvwxvHSLGZ699UZGwU/3EZuJM35sfXdULa1gM0/xBDVNvk1KJ0+HmsRLpRA6rZlmZuJcv616arE+44nP04LDHcPkLu1DH/cAjMEs0I3JchDDY/HUmOfsPvemV1pYLp9ktSu6SVRhdmhWCqzvsYNRADpc5n0JGlJ8hFMwgD8ybzjuf2KQonie67QUz859x0blgdOErHBTvjabp6gu1I4VAY5rJz9pemLRgdVYiT3u0UpNe0CLKmJSKqqdYLjw4ycH0ycR/ZTG2mMjKlQOjG3Rt42t9PBwTvrcmHCtkBCYPnloDTOyyF4SdDo8STk68Lbi6Yg3/cG8uCizYRfhCqx5VPl1qoFO3IXNLEAI0ZTN3q4OLwpWkvIUDEdc2IS4LTQD+bzQszxX5tM2amea+J9VzST+pGTqx0ry+MrOezgHb7WXVS7PeNf8JaFVMwoU0yC1tUZXn3XEYKYrCipKwUDisqXFRUaGfOIjCnl9laa3vmkgclBSGXemEzYjugxoq9A7V+BgfDkU=
